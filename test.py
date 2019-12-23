@@ -12,7 +12,7 @@ class Test:
         print(message)
 
     @staticmethod
-    def assert_equals(actual, expected):
+    def assert_equals(actual, expected, describe):
         if actual == expected:
             print("\tTest Passed!")
         else:
